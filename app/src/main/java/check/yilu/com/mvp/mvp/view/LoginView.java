@@ -6,12 +6,12 @@ public interface LoginView {
 
     String getAccount();
 
-    String getPasswd();
+    String getPasswd(); // 获取密码
 
-    void loginSuccess(User user);
+    void loginSuccess(User user);//显示登录成功
 
-    void showNetworkError();
+    void showNetworkError(); //显示网络错误
 
-    void showVerifyFailed();
+    void showVerifyFailed(); //显示认证失败
 
 }

@@ -11,6 +11,7 @@ import check.yilu.com.mvp.mvp.view.LoginView;
 public class LoginPresenter {
 
 
+    // 模型
     private LoginModel mLoginModel;
 
     public LoginPresenter() {
@@ -43,7 +44,6 @@ public class LoginPresenter {
                     }
                 });
         }
-
 
     }
 
